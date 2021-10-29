@@ -5,9 +5,9 @@ Fall 2021
 
 project2.py
 
-Partner 1:
-Partner 2:
-Date:
+Partner 1: Zezhong Zhang (zz258)
+Partner 2: Yitong Wang
+Date: 11/3/2021
 """
 
 # Import math and other p2 files.
