@@ -6,7 +6,7 @@ Fall 2021
 project2.py
 
 Partner 1: Zezhong Zhang (zz258)
-Partner 2: Yitong Wang
+Partner 2: Yitong Wang (yw471)
 Date: 11/3/2021
 """
 

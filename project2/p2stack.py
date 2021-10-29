@@ -5,8 +5,8 @@ Fall 2021
 
 p2stack.py
 
-Partner 1: Zezhong Zhang
-Partner 2: Yitong Wang
+Partner 1: Zezhong Zhang (zz258)
+Partner 2: Yitong Wang (yw471)
 Date: 10/29/2021
 """
 
@@ -100,12 +100,13 @@ class Stack:
             # updating top and numElems
             self.top-=1
             self.numElems-=1
-
-        return None
+            return self.stack[self.top+1]
+        else :
+            return None
 
 
 """
-Main function to test stack.
+Testing function to test stack.
 """
 if __name__ == "__main__":
     s1 = Stack(5)
