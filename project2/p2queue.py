@@ -60,7 +60,7 @@ class Queue:
     """
     def isEmpty(self):
         # is empty if size = 0
-        return self.size == 0
+        return self.numElems == 0
 
     """
     resize function to resize the queue by doubling its size.
@@ -109,8 +109,8 @@ class Queue:
             self.front += 1
             self.numElems -= 1
             # flip front to the start of array if is invalid
-            if self.rear == self.size:
-                self.rear = 0
+            if self.front == self.size:
+                self.front = 0
             # return out
             return out
         # return None if empty
@@ -124,8 +124,23 @@ if __name__ == "__main__":
     q.push(2)
     q.push(0)
     q.pop()
+    q.push(99)
+    q.pop()
     print(q)
     q.push(9)
     q.push(10)
     q.push("*")
+    q.pop()
+    q.pop()
+    q.pop()
+    q.pop()
+    print(q)
+    q.pop()
+    print(q)
+    q.push(9)
+    q.push(10)
+    q.push("*")
+    q.push(90)
+    q.push(100)
+    q.push("*0")
     print(q)
